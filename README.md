@@ -6,5 +6,6 @@ All that you have to do is run the run.sh file using the command
 
 `./run.sh`
 
-Everything else will be taken care of on its own
+Everything else will be taken care of on its own.
+
 All credits lie with the creator of the repository
