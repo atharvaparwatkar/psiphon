@@ -24,3 +24,4 @@ cp openssh-5.9p1/ssh .
 python psi_client.py -u
 echo 'alias psiphon="cd ~/psiphon && python psi_client.py"' >> ~/.bashrc
 echo 'Psiphon Installation is Successfully Completed'
+echo 'Type "psiphon" to run the vpn'
