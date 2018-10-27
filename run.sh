@@ -1,6 +1,7 @@
 #!bin/bash
 echo 'Installing Dependencies'
 sudo apt-get install python-pip
+sudo apt-get install python3-pip
 sudo apt-get install libz-dev
 sudo pip install wget
 sudo pip install pexpect
@@ -23,5 +24,5 @@ rm ssh
 cp openssh-5.9p1/ssh .
 python psi_client.py -u
 echo 'alias psiphon="cd ~/psiphon && python psi_client.py"' >> ~/.bashrc
-echo 'Psiphon Installation is Successfully Completed'
-echo 'Type "psiphon" to run the vpn'
+echo 'Psiphon Installation is Successfully Completed on your computer!'
+echo 'Type "psiphon" to run the vpn and enjoy'
